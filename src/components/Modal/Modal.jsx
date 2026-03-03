@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { X, Play, Plus, VolumeX, Volume2, Check } from "lucide-react";
 import YouTube from "react-youtube";
-import useMyList from "../../Hooks/useMylist";
+import useMyList from "../../Hooks/useMyList";
 
 const API_KEY = import.meta.env.VITE_API_KEY;
 const imageBaseUrl = "https://image.tmdb.org/t/p/original";
