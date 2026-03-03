@@ -1,6 +1,6 @@
 import { Play, Plus, Check, ChevronDown } from "lucide-react";
 import { useState } from "react";
-import useMyList from "../../Hooks/useMylist";
+import useMyList from "../../Hooks/useMyList";
 
 const API_KEY = import.meta.env.VITE_API_KEY;
 
