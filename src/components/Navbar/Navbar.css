@@ -1,0 +1,30 @@
+.nav {
+  background-color: rgba(0, 0, 0, 0.4);
+  position: fixed;
+  top: 0;
+  z-index: 56;
+  width: 100%;
+  left: 0;
+  justify-content: space-between;
+  transition-timing-function: ease-in;
+  transition: all 0.5s;
+}
+
+.nav_black {
+  background-color: black;
+  transition: ease-in-out 500ms;
+}
+
+/* .user {
+  position: fixed;
+  top: 9px;
+  right: 20px;
+  width: 40px;
+  object-fit: contain;
+}
+.nav_logo {
+  position: fixed;
+  left: 20px;
+  width: 80px;
+  object-fit: contain;
+} */
