@@ -1,4 +1,3 @@
-import Footer from '../components/Footer/Footer';
 import Moviecard from "../components/Movies/Moviecard";
 import useMyList from '../Hooks/useMyList';
 
@@ -26,7 +25,6 @@ export default function MyList({ onSelect }) {
           </div>
         )}
     </div>
-    <Footer/>
     </div>
   );
 }
